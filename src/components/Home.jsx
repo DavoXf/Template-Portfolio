@@ -35,7 +35,7 @@ const Home = () => {
 					<img
 						src="https://picsum.photos/id/1/200/300"
 						alt="my profile"
-						className="rounded-3xl mx-auto w-2/3 md:w-full"
+						className="rounded-full mx-auto w-2/3 md:w-full"
 					/>
 				</div>
 			</div>
