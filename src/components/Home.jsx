@@ -8,12 +8,12 @@ const Home = () => {
 			className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
 		>
 			<div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-				<div className="flex flex-col justify-center h-full mr-7">
+				<div className="flex flex-col justify-center h-full md:mr-7">
 					<h2 className="text-4xl sm:text-6xl font-bold text-white">
 						Hi there!
 						<p className="text-4xl sm:text-7xl">I'm Full Stack Developer</p>
 					</h2>
-					<p className="text-gray-500 py-4 max-w-xl lg:max-w-2xl">
+					<p className="text-gray-500 py-4 max-w-xl lg:max-w-3xl">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
 						lobortis nibh id ex eleifend euismod. Aliquam aliquet molestie
 						viverra. Curabitur semper viverra tellus, eget cursus nisi tempor
