@@ -8,12 +8,33 @@
   html {
     font-family: 'Quicksand', sans-serif;
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--black);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 10px;
+  }
 }
 
 :root {
   --white: #FFFFFF;
   --black: #000000;
+  --scrollbar-color: rgba(255, 255, 255, 0.065);
   --very-light-pink: #C7C7C7;
   --text-input-field: #F7F7F7;
   --hospital-green: #ACD9B2;
+}
+
+.img-home {
+  background-image: url(./assets/img/bgHome.webp);
+
 }
