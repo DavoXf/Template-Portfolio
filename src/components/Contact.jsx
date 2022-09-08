@@ -11,9 +11,11 @@ const Contact = () => {
 					<p className="text-4xl font-bold inline border-b-4 border-gray-500">
 						Contact
 					</p>
-					<p className="py-6 w-25">
-						I'm interested in new challenging and exciting opportunities. If you
-						have other request or questions, don't hesitate to email me.
+					<p className="pt-6">
+						I'm interested in new challenging and exciting opportunities.
+					</p>
+					<p>
+						If you have other request or questions, don't hesitate to email me.
 					</p>
 				</div>
 
