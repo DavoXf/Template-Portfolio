@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import programming from '../assets/img/programming.svg';
+import cv from '../assets/bg-home.webp';
 
 const Home = () => {
 	return (
@@ -26,12 +27,17 @@ const Home = () => {
 					</p>
 
 					<div>
-						<button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+						<a
+							href={cv}
+							className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+							rel="noreferrer"
+							download
+						>
 							CV
 							<span className="group-hover:rotate-90 duration-300">
 								<MdOutlineKeyboardArrowRight size={25} className="ml-1" />
 							</span>
-						</button>
+						</a>
 					</div>
 				</div>
 
